@@ -1,0 +1,12 @@
+
+{
+  "include": ["."],
+  "exclude": ["env", "**/__pycache__"],
+  "pythonVersion": "3.12",
+  "venvPath": ".",
+  "venv": "env",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "typeCheckingMode": "basic",
+  "djangoSettingsModule": "projectname.settings"
+}
